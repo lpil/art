@@ -10,10 +10,12 @@
   <body>
     <ul>
       {% for page in site.pages %}
+      {% if page.art %}
       <li>
         <a href="{{ site.baseurl }}{{ page.url }}" target="_blank">
           {{ page.url }}
         </a>
+      {% endif %}
       {% endfor %}
     </ul>
   </body>
