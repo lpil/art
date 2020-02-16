@@ -1,4 +1,4 @@
-import { Collage, Circle, origin, range } from "../modules/classy-svg.js"
+import { Collage, Circle, origin, range } from "./svg.js"
 
 let ring = iteration => {
   let growth = iteration * 8
